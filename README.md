@@ -1,9 +1,5 @@
 封装cookie
 
-```ruby
-  def add(a, b)
-    return a + b
-  end
     
 npm 下载
 
@@ -25,4 +21,9 @@ yl.cookie('user')
     yl.removeCookie('user') 
     
     
-
+    
+    
+```ruby
+  def add(a, b)
+    return a + b
+  end
