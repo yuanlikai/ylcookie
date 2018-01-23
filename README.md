@@ -1,6 +1,6 @@
 NPM下载
--
-npm install ylcookie  --save
+### NPM下载
+npm安装ylcookie  - 保存
 
 设置名称为user，值为yuanlikai，储存时间7天
 
