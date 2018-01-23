@@ -29,7 +29,7 @@ kie.prototype.removeCookie=function(name){
     yl.cookie(name,'',-1)
 };
 export default yl;
-
+`
 
 npm 下载
 
