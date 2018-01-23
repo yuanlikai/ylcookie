@@ -42,7 +42,10 @@ npm 下载
 
 获取cookie
 
-    yl.cookie('user') 
+
+```ruby
+yl.cookie('user') 
+end
 
 
 删除cookie
