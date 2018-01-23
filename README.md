@@ -13,7 +13,7 @@ var kie =function kie() {
                 document.cookie = name + '=' + value;
             }
 
-        } else {  //获取cookie
+        } else {
             var str = document.cookie.split('; ');
             for (var i = 0; i < str.length; i++) {
                 var er = str[i].split('=');
@@ -32,24 +32,25 @@ export default yl;
 ```
 
 npm 下载
-
-    npm install ylcookie --save
+```ruby
+npm install ylcookie --save
+```
 
 
 设置名称为user，值为yuanlikai，储存时间7天
-
-    yl.cookie('user','yuanlikai',7) 
-
+```ruby
+yl.cookie('user','yuanlikai',7) 
+```
 
 获取cookie
-
+```ruby
 yl.cookie('user') 
-
+```
 
 删除cookie
-
-    yl.removeCookie('user') 
-    
+```ruby
+yl.removeCookie('user') 
+```
     
     
     
