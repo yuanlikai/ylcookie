@@ -1,7 +1,7 @@
 
 npm 下载
 
-    npm install `ylcookie` --save
+    npm install ylcookie --save
 
 设置名称为user，值为yuanlikai，储存时间7天
 
