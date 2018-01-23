@@ -1,5 +1,6 @@
 封装cookie
 
+```ruby
     var kie =function kie() {
         var u = undefined;
         this.cookie = function (name, value, day) {
@@ -28,7 +29,7 @@
         yl.cookie(name,'',-1)
     }
     export default yl;
-
+    end
     
 npm 下载
 
