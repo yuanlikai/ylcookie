@@ -27,4 +27,4 @@ var kie =function kie() {
 var yl = new kie();
 kie.prototype.removeCookie=function(name){
     yl.cookie(name,'',-1)
-l
+}
