@@ -1,6 +1,6 @@
 封装cookie
 
-```
+```ruby
 var kie =function kie() {
     var u = undefined;
     this.cookie = function (name, value, day) {
