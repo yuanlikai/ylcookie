@@ -31,13 +31,6 @@ kie.prototype.removeCookie=function(name){
 export default yl;
 ```
 
-npm 下载
-
-```ruby
-npm install ylcookie --save
-```
-
-
 设置名称为user，值为yuanlikai，储存时间7天
 
 ```ruby
