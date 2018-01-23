@@ -1,5 +1,5 @@
 
-npm 下载
+*npm 下载
 
     npm install ylcookie --save
 
