@@ -29,7 +29,7 @@
         yl.cookie(name,'',-1)
     };
     export default yl;
-  end
+    end
     
 npm 下载
 
