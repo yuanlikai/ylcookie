@@ -1,4 +1,5 @@
 封装cookie
+
     var kie =function kie() {
         var u = undefined;
         this.cookie = function (name, value, day) {
