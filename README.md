@@ -1,5 +1,5 @@
-
-    var kie =function kie() {
+封装cookie
+    var kie =function kie() {
         var u = undefined;
         this.cookie = function (name, value, day) {
             if (value != u) {
@@ -25,8 +25,8 @@
     var yl = new kie();
     kie.prototype.removeCookie=function(name){
         yl.cookie(name,'',-1)
-    }
-
+    }
+    
 
 npm 下载
 
