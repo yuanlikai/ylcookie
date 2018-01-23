@@ -1,10 +1,11 @@
-npm
-下载大标题  
-====
+NPM下载
+=
 
-npm install ylcookie --save
 
-设置name为user，value为袁理开，储存时间7天
+
+npm安装ylcookie  - 保存
+
+设置名称为用户，值为袁理开，储存时间7天
 
 yl.cookie('user','yuanlikai',7) 
 
