@@ -6,6 +6,7 @@ npm 下载
 设置名称为user，值为yuanlikai，储存时间7天
 
     yl.cookie('user','yuanlikai',7) 
+    yl.cookie('user') 
 
 获取cookie
 
