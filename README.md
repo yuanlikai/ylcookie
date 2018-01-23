@@ -42,12 +42,16 @@ npm 下载
 
 获取cookie
 
-
-```ruby
 yl.cookie('user') 
-end
 
 
 删除cookie
 
     yl.removeCookie('user') 
+    
+    
+    
+```ruby
+  def add(a, b)
+    return a + b
+  end
