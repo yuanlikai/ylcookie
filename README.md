@@ -32,22 +32,26 @@ export default yl;
 ```
 
 npm 下载
+
 ```ruby
 npm install ylcookie --save
 ```
 
 
 设置名称为user，值为yuanlikai，储存时间7天
+
 ```ruby
 yl.cookie('user','yuanlikai',7) 
 ```
 
 获取cookie
+
 ```ruby
 yl.cookie('user') 
 ```
 
 删除cookie
+
 ```ruby
 yl.removeCookie('user') 
 ```
