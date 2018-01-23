@@ -1,7 +1,7 @@
 封装cookie
 
 ```ruby
-var kie =function () {
+var kie = function () {
     var u = undefined;
     this.cookie = function (name, value, day) {
         if (value != u) {
