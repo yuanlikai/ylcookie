@@ -1,5 +1,5 @@
-==封装cookie
-===
+封装cookie
+------
 
     var kie =function kie() {
         var u = undefined;
