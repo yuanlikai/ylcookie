@@ -89,8 +89,8 @@ yl.cookie(name,value,str)
 cookie|type|must
 ------------- | ------------- | -------------
 name| `String` |true
-value|String|false
-str|Object|false
+value| `String` |false
+str| `Object` |false
 
 ```javascript
 yl.cookie(name,value,{
@@ -103,8 +103,8 @@ yl.cookie(name,value,{
 
 str|type|must
 ------------- | ------------- | -------------
-expires|String|false
-path|String|false
-domain|String|false
+expires| `String` |false
+path| `String` |false
+domain| `String` |false
 
 
