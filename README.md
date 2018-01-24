@@ -86,7 +86,7 @@ cookie传递参数
 yl.cookie(name,value,str) 
 ```
 
-name|type|must
+cookie|type|must
 ------------- | ------------- | -------------
 name|String|true
 value|String|false
@@ -101,7 +101,7 @@ yl.cookie(name,value,{
 ) 
 ```
 
-name|type|must
+str|type|must
 ------------- | ------------- | -------------
 expires|String|false
 path|String|false
