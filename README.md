@@ -41,6 +41,7 @@ ylcookie使用方法
 yl.cookie('user','yuanlikai',{
     expires:7,
     path:'/',
+    domain:'neimaiba.com',
 }) 
 ```
 
