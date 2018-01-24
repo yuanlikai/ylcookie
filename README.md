@@ -90,7 +90,7 @@ cookie|type|must
 ------------- | ------------- | -------------
 name| `String` |true
 value| `String` |false
-str| `Object` |false
+object| `Object` |false
 
 ```javascript
 yl.cookie(name,value,{
