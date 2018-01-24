@@ -79,10 +79,13 @@ yl.cookie('user','yuanlikai',{
 }) 
 ```
 
-  参数  | 是否必须
-  ------------- | -------------
- name  |  是
- value  |  否
- expires  |  否
- path  |  否
- domain  |  否
+cookie传递参数
+------
+
+参数  | 是否必须
+------------- | -------------
+name  |  是
+value  |  否
+expires  |  否
+path  |  否
+domain  |  否
