@@ -1,7 +1,7 @@
 封装cookie
 ------
 
-直接使用或者npm install ylcookie --save 下载
+直接使用或者npm install ylcookie --save 下载  --save package.json添加版本号
 
 ```ruby
 var kie = function () {
