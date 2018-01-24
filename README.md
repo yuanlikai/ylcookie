@@ -1,4 +1,4 @@
-封装cookie
+ylcookie
 ------
 
 复制下方代码或者 `npm install ylcookie --save` 下载
