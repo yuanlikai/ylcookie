@@ -39,7 +39,8 @@ ylcookie使用方法
 
 ```ruby
 yl.cookie('user','yuanlikai',{
-    expires:7
+    expires:7,
+    path:'/',
 }) 
 ```
 
