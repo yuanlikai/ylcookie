@@ -1,7 +1,7 @@
 封装cookie
 ------
 
-直接使用或者npm install ylcookie --save 下载  --save package.json添加版本号
+直接使用或者 `npm install ylcookie --save` 下载
 
 ```ruby
 var kie = function () {
@@ -35,7 +35,7 @@ kie.prototype.removeCookie=function(name){
 ylcookie基本用法
 ------
 
-设置name为user，value为yuanlikai，储存时间7天
+设置 `name` 为 `user` ， `value` 为 `yuanlikai` ，储存时间 `7` 天
 
 ```ruby
 yl.cookie('user','yuanlikai',{
@@ -58,8 +58,8 @@ yl.removeCookie('user')
 ylcookie路径概念
 ------
 
-假设在 "http://erp.neimaiba.cn/demo/" 文件下创建cookie，那么在"/demo/"这个路径下的所有页面默认就能取到cookie信息。
-可在默认情况下 如: "http://erp.neimaiba.cn" 或者`上级目录`访问不了这个`cookie`。
+假设在 "http://erp.neimaiba.cn/demo/" 文件下创建 `cookie` ，那么在 `/demo/` 这个路径下的所有页面默认就能取到 `cookie` 信息。
+可在默认情况下 如: "http://erp.neimaiba.cn" 或者 `上级目录` 访问不了这个 `cookie` 。
 如果想让这个 `cookie` 能被其他目录或者父级的目录访问类，通过设置 `ylcookie path` 的路径就可以实现。代码如下：
 
 ```ruby
@@ -70,7 +70,7 @@ yl.cookie('user','yuanlikai',{
 
 ylcookie域概念
 ------
-如需同域之间访问`cookie` ，如  "erp.neimaiba.cn" 下的`cookie`，能被 "kd.neimaiba.cn" 访问到cookie，`path`设置为`path:'/'`这个时候我们就可以设置domain来实现，代码如下
+如需同域之间访问 `cookie` ，如  "erp.neimaiba.cn" 下的 `cookie` ，能被 "kd.neimaiba.cn" 访问到 `cookie` ，`path` 设置为 `path:'/'` 这个时候我们就可以设置domain来实现，代码如下
 
 ```ruby
 yl.cookie('user','yuanlikai',{
