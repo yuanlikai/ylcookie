@@ -83,7 +83,7 @@ cookie传递参数
 ------
 
 ```javascript
-yl.cookie(name,value,str) 
+yl.cookie(name,value,object) 
 ```
 
 cookie|type|must
@@ -101,7 +101,7 @@ yl.cookie(name,value,{
 ) 
 ```
 
-str|type|must
+object|type|must
 ------------- | ------------- | -------------
 expires| `String` |false
 path| `String` |false
