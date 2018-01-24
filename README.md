@@ -86,11 +86,11 @@ cookie传递参数
 yl.cookie(name,value,str) 
 ```
 
-参数|是否必须
+参数|类型|是否必须
 ------------- | -------------
-name|是
-value|否
-str|否
+name|string|是
+value|string|否
+str|object|否
 
 ```javascript
 yl.cookie(name,value,{
@@ -101,10 +101,10 @@ yl.cookie(name,value,{
 ) 
 ```
 
-参数|是否必须
+参数|类型|是否必须
 ------------- | -------------
-expires|否
-path|否
-domain|否
+expires|string|否
+path|string|否
+domain|string|否
 
 
