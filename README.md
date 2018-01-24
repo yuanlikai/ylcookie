@@ -29,7 +29,7 @@ kie.prototype.removeCookie=function(name){
 };
 ```
 
-设置名称为user，值为yuanlikai，储存时间7天
+设置name为user，value为yuanlikai，储存时间7天
 
 ```ruby
 yl.cookie('user','yuanlikai',{
