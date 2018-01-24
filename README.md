@@ -37,7 +37,7 @@ ylcookie基本用法
 
 设置 `name` 为 `user` ， `value` 为 `yuanlikai` ，储存时间 `7` 天
 
-```ruby
+```javascript
 yl.cookie('user','yuanlikai',{
     expires:7
 }) 
@@ -45,13 +45,13 @@ yl.cookie('user','yuanlikai',{
 
 获取cookie
 
-```ruby
+```javascript
 yl.cookie('user') 
 ```
 
 删除cookie
 
-```ruby
+```javascript
 yl.removeCookie('user') 
 ```
 
@@ -62,7 +62,7 @@ ylcookie路径概念
 可在默认情况下 如： `erp.neimaiba.cn` 或者 `上级目录` 访问不了这个 `cookie` 。
 如果想让这个 `cookie` 能被其他目录或者父级的目录访问类，通过设置 `ylcookie path` 的路径就可以实现。代码如下：
 
-```ruby
+```javascript
 yl.cookie('user','yuanlikai',{
     path:'/'
 }) 
@@ -72,7 +72,7 @@ ylcookie域概念
 ------
 如需同域之间访问 `cookie` ，如： `erp.neimaiba.cn` 下的 `cookie` 能被 `kd.neimaiba.cn` 访问到 `cookie` ，这个时候我们就可以将 `path` 设置为 `path:'/'` ， `domain` 设置为 `neimaiba.cn` 来实现，代码如下：
 
-```ruby
+```javascript
 yl.cookie('user','yuanlikai',{
     path:'/',
     domain:'neimaiba.cn'
