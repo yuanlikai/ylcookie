@@ -70,10 +70,11 @@ yl.cookie('user','yuanlikai',{
 
 ylcookie域概念
 ------
-如需同域之间访问 `cookie` ，如 `erp.neimaiba.cn` 下的 `cookie` ，能被 `kd.neimaiba.cn` 访问到 `cookie` ，`path` 设置为 `path:'/'` 这个时候我们就可以设置domain来实现，代码如下
+如需同域之间访问 `cookie` ，如: `erp.neimaiba.cn` 下的 `cookie` ，能被 `kd.neimaiba.cn` 访问到 `cookie` ，这个时候我们就可以将 `path` 设置为 `path:'/'` ， `domain` 设置为 `neimaiba.cn` 来实现，代码如下
 
 ```ruby
 yl.cookie('user','yuanlikai',{
-    path:'/'
+    path:'/',
+    domain:'neimaiba.cn'
 }) 
 ```
