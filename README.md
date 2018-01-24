@@ -3,7 +3,7 @@
 
 直接使用或者 `npm install ylcookie --save` 下载
 
-```ruby
+```javascript
 var kie = function () {
     var u = undefined;
     this.cookie = function (name, value, str) {
