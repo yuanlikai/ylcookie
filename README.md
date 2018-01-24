@@ -58,7 +58,7 @@ yl.removeCookie('user')
 ylcookie路径概念
 ------
 
-在 "http://erp.neimaiba.cn/demo/" 这个页面创建一个cookie，那么在"/demo/"这个路径下的页面如： "http://erp.neimaiba.cn/demo/2018-01-24/index.html"这个页面默认就能取到cookie信息。
+在 "http://erp.neimaiba.cn/demo/" 这个页面创建一个cookie，那么在"/demo/"这个路径下的页面如： "http://erp.neimaiba.cn/demo/2018-01-24/index.html" 这个页面默认就能取到cookie信息。
 可在默认情况下， "http://www.cnblogs.com"或者 "http://www.cnblogs.com/xxxx/" 就不可以访问这个 cookie（光看没用，实践出真理^_^）。
 
 　　那么如何让这个 cookie 能被其他目录或者父级的目录访问类，通过设置 cookie 的路径就可以实现。例子如下：
