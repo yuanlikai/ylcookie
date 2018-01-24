@@ -83,3 +83,6 @@ yl.cookie('user','yuanlikai',{
   ------------- | -------------
  name  |  是
  value  |  否
+ expires  |  否
+ path  |  否
+ domain  |  否
