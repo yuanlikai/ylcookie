@@ -82,10 +82,16 @@ yl.cookie('user','yuanlikai',{
 cookie传递参数
 ------
 
+```javascript
+yl.cookie(name,value,str) 
+```
+
 参数  | 是否必须
 ------------- | -------------
 name  |  是
 value  |  否
+str |   否   
+------------- | -------------
 expires  |  否
 path  |  否
 domain  |  否
