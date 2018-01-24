@@ -91,7 +91,11 @@ yl.cookie(name,value,str)
 name  |  是
 value  |  否
 str |   否   
+
+参数  | 是否必须
 ------------- | -------------
 expires  |  否
 path  |  否
-domain  |  否
+domain |   否   
+
+
