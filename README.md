@@ -1,7 +1,7 @@
 封装cookie
 
 ```ruby
-var kie = function () {
+var kie =function kie() {
     var u = undefined;
     this.cookie = function (name, value, day) {
         if (value != u) {
@@ -13,7 +13,7 @@ var kie = function () {
                 document.cookie = name + '=' + value;
             }
 
-        } else {
+        } else {  //获取cookie
             var str = document.cookie.split('; ');
             for (var i = 0; i < str.length; i++) {
                 var er = str[i].split('=');
@@ -28,13 +28,14 @@ var yl = new kie();
 kie.prototype.removeCookie=function(name){
     yl.cookie(name,'',-1)
 };
-export default yl;
 ```
 
 设置名称为user，值为yuanlikai，储存时间7天
 
 ```ruby
-yl.cookie('user','yuanlikai',7) 
+yl.cookie('user','yuanlikai',{
+    expires:7
+}) 
 ```
 
 获取cookie
