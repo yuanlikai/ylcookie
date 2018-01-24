@@ -87,7 +87,7 @@ yl.cookie(name,value,str)
 ```
 
 参数|类型|是否必须
-------------- | -------------
+------------- | ------------- | -------------
 name|string|是
 value|string|否
 str|object|否
