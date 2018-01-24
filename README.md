@@ -67,5 +67,7 @@ yl.cookie('user','yuanlikai',{
     path:'/'
 }) 
 ```
-    
+
+ylcookie域概念
+------
     
