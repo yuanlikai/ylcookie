@@ -35,10 +35,12 @@ kie.prototype.removeCookie=function(name){
 ylcookie基本用法
 ------
 
-设置name为user，value为yuanlikai
+设置name为user，value为yuanlikai，储存时间7天
 
 ```ruby
-yl.cookie('user','yuanlikai') 
+yl.cookie('user','yuanlikai',{
+    expires:7
+}) 
 ```
 
 获取cookie
@@ -52,6 +54,8 @@ yl.cookie('user')
 ```ruby
 yl.removeCookie('user') 
 ```
-    
+
+ylcookie路径概念
+------
     
     
