@@ -1,7 +1,7 @@
 封装cookie
 ------
 
-直接使用或者 `npm install ylcookie --save` 下载
+复制下方代码或者 `npm install ylcookie --save` 下载
 
 ```javascript
 var kie = function () {
