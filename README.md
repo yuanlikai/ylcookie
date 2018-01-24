@@ -38,10 +38,16 @@ ylcookie使用方法
 设置name为user，value为yuanlikai，储存时间7天
 
 ```ruby
+yl.cookie('user','yuanlikai') 
+```
+
+设置储存时间7天
+
+```ruby
 yl.cookie('user','yuanlikai',{
     expires:7,
-    path:'/',
-    domain:'neimaiba.com',
+    path:'/',
+    domain:'neimaiba.com'
 }) 
 ```
 
