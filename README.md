@@ -84,11 +84,6 @@ cookie传递参数
 
 ```javascript
 yl.cookie(name,value,str) 
-str{
-    expires:expires,
-    path:path,
-    domain:domain
-}
 ```
 
 参数|是否必须
@@ -96,6 +91,15 @@ str{
 name|是
 value|否
 str|否
+
+```javascript
+yl.cookie(name,value,{
+        expires:expires,
+        path:path,
+        domain:domain
+    }
+) 
+```
 
 参数|是否必须
 ------------- | -------------
