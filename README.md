@@ -1,18 +1,17 @@
 封装cookie
 
 ```ruby
-var kie =function kie() {
+var kie =function () {
     var u = undefined;
-    this.cookie = function (name, value, day) {
+    this.cookie = function (name, value, str) {
         if (value != u) {
-            if (day != u) {
+            if (str != u) {
                 var exp = new Date();
-                exp.setTime(exp.getTime() + day * 24 * 60 * 60 * 1000);
-                document.cookie = name + '=' + value + ';expires=' + exp.toGMTString();
+                exp.setTime(exp.getTime() + str.expires * 24 * 60 * 60 * 1000);
+                document.cookie = name + '=' + value + ';expires=' + exp.toGMTString()+';path='+str.path+';domain='+str.domain;
             } else {
                 document.cookie = name + '=' + value;
             }
-
         } else {  //获取cookie
             var str = document.cookie.split('; ');
             for (var i = 0; i < str.length; i++) {
