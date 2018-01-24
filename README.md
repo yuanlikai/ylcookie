@@ -27,7 +27,7 @@ var kie = function () {
     };
 };
 var yl = new kie();
-kie.prototype.removeCookie=function(name){
+kie.prototype.removeCookie = function(name){
     yl.cookie(name,'',-1)
 };
 ```
