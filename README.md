@@ -86,7 +86,7 @@ cookie传递参数
 yl.cookie(name,value,str) 
 ```
 
-参数|类型|是否必须
+name|type|是否必须
 ------------- | ------------- | -------------
 name|String|是
 value|String|否
@@ -101,7 +101,7 @@ yl.cookie(name,value,{
 ) 
 ```
 
-参数|类型|是否必须
+name|type|是否必须
 ------------- | ------------- | -------------
 expires|String|否
 path|String|否
