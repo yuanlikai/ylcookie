@@ -60,7 +60,7 @@ ylcookie路径概念
 
 假设在 "http://erp.neimaiba.cn/demo/" 文件下创建cookie，那么在"/demo/"这个路径下的所有页面默认就能取到cookie信息。
 可在默认情况下 如: "http://erp.neimaiba.cn" 或者`上级目录`访问不了这个cookie。
-如果想让这个 cookie 能被其他目录或者父级的目录访问类，通过设置 ylcookie path的路径就可以实现。例子如下：
+如果想让这个 cookie 能被其他目录或者父级的目录访问类，通过设置 ylcookie path的路径就可以实现。代码如下：
 
 ```ruby
 yl.cookie('user','yuanlikai',{
@@ -70,10 +70,10 @@ yl.cookie('user','yuanlikai',{
 
 ylcookie域概念
 ------
-
+如需同域之间访问cookie ，如  "erp.neimaiba.cn" 下的cookie，能被 "kd.neimaiba.cn" 访问到cookie，'path'设置为path:'/'这个时候我们就可以设置domain来实现，代码如下
 
 ```ruby
-
-
-
+yl.cookie('user','yuanlikai',{
+    path:'/'
+}) 
 ```
