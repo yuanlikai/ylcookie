@@ -88,7 +88,7 @@ yl.cookie(name,value,str)
 
 name|type|must
 ------------- | ------------- | -------------
-name|String|false
+name|String|true
 value|String|false
 str|Object|false
 
