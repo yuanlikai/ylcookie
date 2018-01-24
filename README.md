@@ -102,7 +102,7 @@ yl.cookie(name,value,{
 ```
 
 参数|类型|是否必须
-------------- | -------------
+------------- | ------------- | -------------
 expires|string|否
 path|string|否
 domain|string|否
