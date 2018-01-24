@@ -35,7 +35,7 @@ kie.prototype.removeCookie=function(name){
 ylcookie基本用法
 ------
 
-设置 `name` 为 `user` ， `value` 为 `yuanlikai` ，储存时间 `7` 天
+* 设置 `name` 为 `user` ， `value` 为 `yuanlikai` ，储存时间 `7` 天
 
 ```javascript
 yl.cookie('user','yuanlikai',{
@@ -43,13 +43,13 @@ yl.cookie('user','yuanlikai',{
 }) 
 ```
 
-获取cookie
+* 获取cookie
 
 ```javascript
 yl.cookie('user') 
 ```
 
-删除cookie
+* 删除cookie
 
 ```javascript
 yl.removeCookie('user') 
