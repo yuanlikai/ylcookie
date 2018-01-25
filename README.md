@@ -103,7 +103,7 @@ yl.cookie(name,value,{
 
 object|type|must
 ------------- | ------------- | -------------
-expires| ``String`` |false
+expires| `String` |false
 path| `String` |false
 domain| `String` |false
 
