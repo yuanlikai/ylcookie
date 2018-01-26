@@ -6,17 +6,18 @@ ylcookie
 ```javascript
 var kie = function () {
     var u = undefined;
+    var d = document;
     this.cookie = function (name, value, str) {
         if (value != u) {
             if (str != u) {
                 var exp = new Date();
                 exp.setTime(exp.getTime() + str.expires * 24 * 60 * 60 * 1000);
-                document.cookie = name + '=' + value + ';expires=' + exp.toGMTString()+';path='+str.path+';domain='+str.domain;
+                d.cookie = name + '=' + value + ';expires=' + exp.toGMTString();
             } else {
-                document.cookie = name + '=' + value;
+                d.cookie = name + '=' + value;
             }
         } else {  //获取cookie
-            var str = document.cookie.split('; ');
+            var str = d.cookie.split('; ');
             for (var i = 0; i < str.length; i++) {
                 var er = str[i].split('=');
                 if (er[0] == name) {
@@ -27,8 +28,10 @@ var kie = function () {
     };
 };
 var yl = new kie();
-kie.prototype.removeCookie = function(name){
-    yl.cookie(name,'',-1)
+kie.prototype.removeCookie=function(name){
+    yl.cookie(name,'',{
+        expires:-1
+    })
 };
 ```
 
