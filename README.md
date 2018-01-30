@@ -12,7 +12,7 @@ var kie = function () {
             if (str != u) {
                 var exp = new Date();
                 exp.setTime(exp.getTime() + str.expires * 24 * 60 * 60 * 1000);
-                d.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value) + ';expires=' + exp.toGMTString();
+                d.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value) + ';expires=' + encodeURIComponent(exp.toGMTString());
             } else {
                 d.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value);
             }
