@@ -12,16 +12,16 @@ var kie = function () {
             if (str != u) {
                 var exp = new Date();
                 exp.setTime(exp.getTime() + str.expires * 24 * 60 * 60 * 1000);
-                d.cookie = name + '=' + value + ';expires=' + exp.toGMTString();
+                d.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value) + ';expires=' + exp.toGMTString();
             } else {
-                d.cookie = name + '=' + value;
+                d.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value);
             }
         } else {  //获取cookie
             var str = d.cookie.split('; ');
             for (var i = 0; i < str.length; i++) {
                 var er = str[i].split('=');
-                if (er[0] == name) {
-                    return er[1]
+                if (er[0] == decodeURIComponent(name)) {
+                    return decodeURIComponent(er[1])
                 }
             }
         }
