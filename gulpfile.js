@@ -5,7 +5,7 @@ var open = require('open');
 //1.定义路径
 var app = {
     srcPath: 'src/',
-    prdPath: 'dist/',
+    prdPath: 'dist/'
 };
 
 gulp.task('html', function () {
@@ -31,8 +31,8 @@ gulp.task('publicCss', function () {
 
 gulp.task('img', function () {
     gulp.src(app.srcPath + 'img/**/*')
-        .pipe($.imagemin())//图片压缩
-        .pipe(gulp.dest(app.prdPath + 'img'))//压缩之后放在
+        .pipe($.imagemin())
+        .pipe(gulp.dest(app.prdPath + 'img'))
         .pipe($.connect.reload());
 });
 
