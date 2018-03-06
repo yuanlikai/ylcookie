@@ -1,0 +1,136 @@
+.w(@px) {
+  width: unit(@px, px);
+}
+
+.h(@px) {
+  height: unit(@px, px);
+}
+
+.t(@px) {
+  top: unit(@px, px);
+}
+
+.b(@px) {
+  bottom: unit(@px, px);
+}
+
+.r(@px) {
+  right: unit(@px, px);
+}
+
+.l(@px) {
+  left: unit(@px, px);
+}
+
+;
+.mt(@px) {
+  margin-top: unit(@px, px);
+}
+
+.mb(@px) {
+  margin-bottom: unit(@px, px);
+}
+
+.mr(@px) {
+  margin-right: unit(@px, px);
+}
+
+.ml(@px) {
+  margin-left: unit(@px, px);
+}
+
+;
+.pt(@px) {
+  padding-top: unit(@px, px);
+}
+
+.pb(@px) {
+  padding-bottom: unit(@px, px);
+}
+
+.pr(@px) {
+  padding-right: unit(@px, px);
+}
+
+.pl(@px) {
+  padding-left: unit(@px, px);
+}
+
+.lh(@px) {
+  line-height: unit(@px, px);
+}
+
+@rem:41.6666rem;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, input, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari */
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+
+body, html {
+  font-family: "微软雅黑";
+  font-size: 24/@rem;
+  line-height: 1;
+  color: #333333;
+  background: #FFFFFF;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+.lazy {
+  background: #f1f1f1;
+}
+
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
