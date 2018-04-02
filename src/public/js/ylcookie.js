@@ -1,7 +1,4 @@
 /**
- * Created by 袁理开 on 2018/3/6.
- */
-/**
  * Created by 袁理开 on 2018/1/13.
  */
 var kie = function () {
