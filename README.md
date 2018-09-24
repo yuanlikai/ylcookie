@@ -1,8 +1,6 @@
 npm
 ------
-npm install
-
-gulp
+npm install ylcookie
 
 ylcookie基本用法
 ------
